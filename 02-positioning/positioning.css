@@ -1,0 +1,19 @@
+﻿body
+{
+    font-size:22px;
+}
+h1
+{
+    position:sticky;
+
+}
+.logo
+{
+    /*width:200px;
+    height:200px;*/
+    position:fixed;
+    left:300px;
+    top:300px;
+    z-index:-1;
+    filter:blur(55px);
+}
