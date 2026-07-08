@@ -1,0 +1,50 @@
+﻿body {
+    background-image: url("bliss.jpg");
+    background-size: cover;
+    background-position: center center; /* Центрируем изображение */
+    background-repeat: no-repeat; /* Не повторяем */
+    background-attachment: fixed; /* Фиксируем при прокрутке */
+    font-family: Tahoma;
+}
+
+.main-window {
+    /*border:solid 1px;*/
+    width: 400px;
+    height: 300px;
+}
+
+.title-bar {
+    width: 100%;
+    height: 38px;
+    color: white;
+    background-image: linear-gradient( rgb(14,70,190) 0%, rgb(51,144,253) 10%, rgb(0,86,228) 20%, rgb(4,10,253) 90%, rgb(13,8,141) 100% );
+    box-shadow: inset 0 0 4px 1px rgb(13,8,141);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-bar-left-side {
+    display: flex;
+    align-items: center;
+
+}
+
+.app-icon {
+    width: 24px;
+    height: 24px;
+    align-items: center;
+}
+
+.control-button {
+    width: 24px;
+    height: 24px;
+    align-items: center;
+}
+
+.title-bar-left-side, .title-bar-right-side {
+    margin: 0px 8px;
+}
