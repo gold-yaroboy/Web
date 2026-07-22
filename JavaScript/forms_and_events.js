@@ -20,9 +20,9 @@ function setImage() {
 	}
 	reader.readAsDataURL(filename.files[0]);
 }
-function setBackgroundColor()
+function setBackgroundColor(e)
 {
-	document.body.style.backgroundColor = document.getElementById("background-color").value;
+	document.body.style.backgroundColor = e.target.value;
 }
 function setForegroundColor()
 {
